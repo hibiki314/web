@@ -4,13 +4,17 @@ location.href = url;
 } 
 setTimeout("JumpPage()",0);
 window.onload = function(){ 	
-var ua = window.navigator.userAgent.toLowerCase(); 	 	if(ua.indexOf('android') > 0){ 		
+var ua = window.navigator.userAgent.toLowerCase(); 	 	
+if(ua.indexOf('android') > 0){ 		
 url = "https://play.google.com/store/apps/details?id=com.rockstargames.gtasa"; 	
 }else 
 if(ua.indexOf('iphone') > 0 || 			
 ua.indexOf('ipad') > 0 || 			
 ua.indexOf('ipod') > 0 ){ 		
-url = "https://itunes.apple.com/jp/app/id763692274?mt=8"; 	
+url = "https://itunes.apple.com/jp/app/id763692274?mt=8"; 
+}else 
+if(ua.indexOf('windows') > 0 ){ 		
+url = "http://www.rockstargames.com/sanandreas/";
 }
 }
 </script>
