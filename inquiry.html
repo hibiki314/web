@@ -7,33 +7,29 @@
 <meta name="robots" content="noindex,nofollow,noarchive">
 <meta name="copyright" content="Copyright © 2017-2019 Hibiki 314. All Rights Reserved.">
 <meta name="author" content="Hibiki 314">
-<title>Hibiki 314 ホームページ - ログイン</title>
+<title>Hibiki 314 ホームページ - 問い合わせ</title>
 <link rel="shortcut icon" href="logo.ico">
 <link rel="stylesheet" href="css/material.min.css">
 <link rel="stylesheet" href="css/material-icon.css">
 <link rel="stylesheet" href="css/min-601px.css">
 <link rel="stylesheet" href="css/max-600px.css">
 <script src="js/material.min.js"></script>
-<script src="password/md5.js"></script>
-<script src="password/des.js"></script>
-<script src="password/login.js"></script>
-<style type="text/css">
-dt{ 
-  font-weight: bold;
-  font-size: 12px;
+<script src="js/age.js"></script>
+<style>
+	.iframe-wrap {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 120%;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-#textbar{
-  font-size: 14px;
-  border: 1px solid #000000;
-}
-
-#button{
-  background-color: #666;
-  color: #ffffff;
-  font-size: 14px;
-  border: 0px;
-  padding: 5px 15px;
+.iframe-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 </style>
 </head>
@@ -52,7 +48,7 @@ dt{
             <a href="index.html" class="mdl-layout__tab">トップ</a>
             <a href="profile.html" class="mdl-layout__tab">自己紹介</a>
             <a href="sakusei.html" class="mdl-layout__tab">作成物</a>
-<a href="login.html" class="mdl-layout__tab is-active">ログイン</a>
+<a href="login.html" class="mdl-layout__tab">ログイン</a>
         <!-- / .mdl-layout__tab-bar mdl-js-ripple-effect --></div>
     </header>
     
@@ -61,6 +57,7 @@ dt{
     <!-- / .mdl-layout__drawer -->
 <nav class="mdl-navigation">
 <a class="mdl-navigation__link" href="inquiry.html">問い合わせ</a>
+<a class="mdl-navigation__link" href="https://plus.google.com/101525237720369236566">Google+</a>
 <a class="mdl-navigation__link" href="https://m.youtube.com/channel/UCCykZDNLGGKPa7z_T2WHi3w">YouTube</a>
 <a class="mdl-navigation__link" href="https://github.com/hibiki314">GitHub</a>
 <a class="mdl-navigation__link" href="https://getmdl.io">Material Design Lite</a>
@@ -71,27 +68,10 @@ dt{
         <section class="mdl-layout__tab-panel is-active">
             <div class="page-content">
                 <p>
-<h2>ログイン</h2>
-<table border="0">
-<tr><td>
-
-</td><td>
-
-<form action="" method="get">
-    <dl>
-        <dt>ID</dt>
-        <dd><input id="textbar" type="text" name="login" value="" /></dd><br>
-        <dt>パスワード</dt>
-        <dd><input id="textbar" type="password" name="pass" value="" /></dd>
-    </dl>
-    <div class="submit">
-        <input id="button" type="button" value="ログイン" onclick="login_from_form(this.form)" />
-    </div>
-</form>
-</td><td>
-
-</td></tr>
-</table>
+<noscript>JavaScriptを有効にして下さい。</noscript>
+<div class="iframe-wrap">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdI4otR0g6SDiFxtMmvSU2YxpIs07CiGtIMOpOso-Zo5e9Cbw/viewform?embedded=true" width="640" height="808" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます...</iframe>
+</div>
 </p>
             <!-- / .page-content --></div>
         </section>
